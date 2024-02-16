@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Бүрэн Финанс</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(222, 211, 187);
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #f5f4f0;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        img {
+          width: 400px;
+        }
+      }
+
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        width: 800px;
+        margin: 40px auto;
+      }
+
+      .card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+      @media (max-width: 768px) {
+        header {
+          background-color: #f5f4f0;
+          color: #fff;
+          text-align: center;
+          padding: 1em;
+          img {
+            max-width: 240px;
+          }
+        }
+        main {
+          max-width: 400px;
+          /* Hide the cards on screens larger than 768px */
+        }
+        .card {
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          margin: 4px;
+          padding: 12px 20px;
+          width: 120px;
+          text-align: center;
+          transition: transform 0.3s ease-in-out;
+          font-size: 10px;
+          img {
+            width: 50%;
+            height: 50%;
+          }
+        }
+      }
+      @media (max-width: 420px) {
+        header {
+          background-color: #f5f4f0;
+          color: #fff;
+          text-align: center;
+          padding: 1em;
+          img {
+            max-width: 180px;
+          }
+        }
+        main {
+          max-width: 320px;
+          margin: auto;
+          padding: 0;
+          /* padding: none; */
+          /* Hide the cards on screens larger than 768px */
+        }
+        .card {
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          margin: 4px auto;
+          padding: 12px 20px;
+          width: 120px;
+          text-align: center;
+          transition: transform 0.3s ease-in-out;
+          font-size: 10px;
+          img {
+            width: 50%;
+            height: 50%;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://gs-private.sgp1.digitaloceanspaces.com/web-builder/web-builder_65260c4183555/26.png"
+      />
+    </header>
+
+    <main>
+      <!-- Example cards, replace these with your own -->
+      <div class="card">
+        <a href="https://burenfinance.mn/" target="_blank">
+          <img
+            src="https://m.zangia.mn/l/j/6/O7-MYGJCFK-59REFPD-QQDQBBS-4J.jpg"
+            width="100"
+            height="100"
+          />
+          <h2>Үндсэн веб</h2>
+          <p>Гадаад веб</p>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="https://burenfinance.bitrix24.com/stream/" target="_blank">
+          <img src="https://www.acemagick.com/res/birt.jpg" height="100" />
+          <h2>Intranet</h2>
+          <p>Дотоод веб</p>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="https://nes.mn/#/apps?role=1447&company=1093" target="_blank">
+          <img
+            src="https://www.grapecity.mn/assets/img/logo.png"
+            width="100"
+            height="100"
+          />
+          <h2>Polaris</h2>
+          <p>Суурь бүртгэлийн програм</p>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://app.slack.com/client/T05U5PZ4KT6/C05U3B03VCJ"
+          target="_blank"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png"
+            width="100"
+            height="100"
+          />
+          <h2>Slack</h2>
+          <p>Чат</p>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="http://webmail.burenfinance.mn/" target="_blank">
+          <img
+            src="data:image/png;base64,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"
+            width="100"
+            height="100"
+          />
+          <h2>Webmail</h2>
+          <p>Имэйл</p>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://buren-finance.odoo.com/web#action=174&model=documents.document&view_type=kanban&cids=1&menu_id=111"
+          target="_blank"
+        >
+          <img
+            src="https://cdn.icon-icons.com/icons2/1951/PNG/512/40_122677.png"
+            width="100"
+            height="100"
+          />
+          <h2>Documents</h2>
+          <p>Дотоод бичиг баримтууд</p>
+        </a>
+      </div>
+
+      <!-- Add more cards as needed -->
+    </main>
+  </body>
+</html>
